@@ -1,0 +1,29 @@
+{
+  "name": "BlogWebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "18.15.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js",
+    "build": "npm cache clean --force && NPM_CONFIG_PRODUCTION=false npm install --prefix frontend --force && npm run build --prefix frontend"
+  },
+  "author": "dattt229",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.8",
+    "morgan": "^1.10.0",
+    "npm": "^7.24.0",
+    "nodemon": "^2.0.15",
+    "react-scripts": "^5.0.1"
+  }
+}
