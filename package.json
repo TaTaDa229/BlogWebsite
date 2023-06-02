@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server/index.js",
-    "build": "npm cache clean --force && NPM_CONFIG_PRODUCTION=false npm install --prefix frontend --force && npm run build --prefix frontend"
+    "build": "npm cache clean --force && npm install --prefix frontend --force && npm run build --prefix frontend"
   },
   "author": "dattt229",
   "license": "ISC",
